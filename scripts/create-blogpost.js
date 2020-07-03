@@ -56,8 +56,8 @@ inquirer
     const postsObject = fs.readJsonSync(postsJsonPath)
 
     // Add the post to the JSON data of posts
-    postsObject[title] = {
-      slug,
+    postsObject[slug] = {
+      title,
       desc,
       heroSrc,
       publishedAt: currentFormattedDate,

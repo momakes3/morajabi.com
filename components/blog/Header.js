@@ -13,7 +13,7 @@ const Header = () => (
           <Title>I’m Mo. </Title>
           <Bio>
             Don’t care about money, trying to be happier, dropped out of high
-            school. Seventeen.{' '}
+            school. <s>Seventeen</s> 18.{' '}
           </Bio>
           <ZigZag />
         </Content>

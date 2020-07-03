@@ -43,7 +43,7 @@ const heapScript = `
 class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet()
-    const page = renderPage(App => props =>
+    const page = renderPage((App) => (props) =>
       sheet.collectStyles(<App {...props} />)
     )
     const styleTags = sheet.getStyleElement()
@@ -54,7 +54,6 @@ class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
-          <title>Mohammad Rajabifard</title>
           {this.props.styleTags}
           <meta
             name="viewport"

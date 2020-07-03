@@ -63,3 +63,6 @@ dist
 out
 
 ecosystem.config.js
+
+.DS_Store
+.vercel

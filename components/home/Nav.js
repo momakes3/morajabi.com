@@ -8,15 +8,25 @@ export default () => (
     <SectionTitle>Wanna know me?</SectionTitle>
 
     <List>
+      <ListItem href="https://twitter.com/morajabi">
+        Twitter
+        <Desc>Active!</Desc>
+      </ListItem>
+      <ListItem href="https://there.so">
+        My Company <Desc>there.so</Desc>
+      </ListItem>
+
+      <ListItem href="https://github.com/morajabi">
+        Github <Desc>Pre-2020</Desc>
+      </ListItem>
+      <ListItem href="https://github.com/momakes">
+        Github <Desc>New</Desc>
+      </ListItem>
       <Link href="/blog" passHref>
         <ListItem>Blog</ListItem>
       </Link>
-      <ListItem href="https://angel.co/morajabi">Resume</ListItem>
-      <ListItem href="https://github.com/morajabi">Github</ListItem>
-      <ListItem href="https://twitter.com/morajabi">
-        Twitter
-        <Desc>Feel free to DM me!</Desc>
-      </ListItem>
+      <ListItem href="https://tinyletter.com/immo">Newsletter</ListItem>
+      <ListItem href="https://angel.co/morajabi">Past Projects</ListItem>
     </List>
   </Wrapper>
 )

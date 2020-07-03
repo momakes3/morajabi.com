@@ -11,18 +11,12 @@ import theme from '../utils/theme'
 import BlogPostLayout from '../components/blog/Post/Layout'
 
 export default class MyApp extends App {
-  static async getInitialProps({ Component, router, ctx }) {
-    let pageProps = {}
-
-    if (Component.getInitialProps) {
-      pageProps = await Component.getInitialProps(ctx)
-    }
-
-    return { pageProps }
-  }
-
   render() {
-    const { Component, pageProps, router: { route = '' } } = this.props
+    const {
+      Component,
+      pageProps,
+      router: { route = '' },
+    } = this.props
     let Layout = null
 
     if (route.startsWith('/blog/') && route.length > 6) {

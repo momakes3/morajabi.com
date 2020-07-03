@@ -10,5 +10,13 @@
     "title": "You read a lot. We like that — My Fun First Flog Fost!",
     "publishedAt": "2018-06-28",
     "heroSrc": "/static/posts/read-a-lot.jpg"
+  },
+  "focus": {
+    "slug": "focus",
+    "title": "How to focus while creating",
+    "desc":
+      "You want to create something, a side project, a blog post, or design. Then why is it so hard to stop browing Twitter, liking on Instagram or playing that game?",
+    "heroSrc": "/static/posts/focus/hero.png",
+    "publishedAt": "2019-05-05"
   }
 }
