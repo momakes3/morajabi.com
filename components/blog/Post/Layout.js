@@ -326,7 +326,7 @@ export const H3 = styled.h3`
     margin-top: 0;
   }
 
-  & + ${H3} {
+  & + & {
     margin-top: 0;
   }
 
