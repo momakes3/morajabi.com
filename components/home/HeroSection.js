@@ -20,9 +20,12 @@ export default () => (
         />
       </Hey>
       <Greeting>
-        <h1>I'm Mohammad Rajabifard</h1>
+        <h1>I'm Mohamad Rajabi</h1>
       </Greeting>
-      <Slogan>Making enthusiast and JS lover</Slogan>
+      <Slogan>
+        Obsessed with Engineering & Design At{' '}
+        <a href="https://there.so">There</a>
+      </Slogan>
     </Texts>
   </Wrapper>
 )
@@ -45,6 +48,9 @@ const Pic = styled.div`
   height: 350px;
   overflow: hidden;
   text-indent: -99999px;
+  border-radius: 24px;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.1),
+    0 20px 30px 5px rgba(0, 0, 0, 0.15);
 
   ${retinaImage(
     '/static/mohammad-rajabifard-profile',
@@ -97,6 +103,8 @@ const Hey = styled.div`
   justify-content: center;
   box-sizing: border-box;
   background: #f7f7f7;
+  border-radius: 24px;
+  margin-bottom: 10px;
 
   ${mobile(css`
     width: 50px;
@@ -115,10 +123,11 @@ const Greeting = styled.div`
   padding-left: var(--text-left-padding);
   padding-right: var(--text-right-padding);
   overflow: hidden;
+  border-radius: 42px;
+  margin-bottom: 10px;
 
   background: #6f6f6f;
   color: #fff;
-
   h1 {
     margin: 0;
     font-weight: 900;
@@ -138,6 +147,8 @@ const Slogan = styled.div`
   padding-left: var(--text-left-padding);
   padding-right: var(--text-right-padding);
   margin: 0;
+  border-radius: 24px;
+  margin-bottom: 10px;
 
   font-weight: normal;
   font-style: italic;
